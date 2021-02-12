@@ -3,21 +3,9 @@ const btn = document.querySelector('.btn');
 const searchBar = document.querySelector('.input');
 
 
+btn.addEventListener('click', ()=>{
+      searchBar.classList.toggle('active')
+})
 
 
 
-
-// function addActiveClass() {
-// searchBar.addEventListener("click", ()=> {
-//       searchBar.classList.add('active')
-// } );
-// }
-
-// addActiveClass()
-
-// function removeActiveClass() {
-//       searchBar.addEventListener("click", ()=> {
-//             searchBar.classList.remove('active')
-//       } );
-//       }
-//       removeActiveClass()
